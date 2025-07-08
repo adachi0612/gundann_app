@@ -1,0 +1,13 @@
+.content {
+  background-color:#a44e4e;
+  text-align: center;
+  margin-left: 10vw;
+  width: 90vw;
+  height: 100vh;
+}
+
+.main {
+  display:flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
