@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './Content.css'
 import { Routes, Route } from "react-router-dom";
 import Chat from '../pages/Chat';

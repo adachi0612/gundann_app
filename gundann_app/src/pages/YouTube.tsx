@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './YouTube.css'
 
 function YouTube() {
