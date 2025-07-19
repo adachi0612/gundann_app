@@ -1,7 +1,6 @@
 import React from 'react'
-import './Home.css'
 
-function Home() {
+function X() {
   return (
     <div className='Content'>
       
@@ -9,4 +8,4 @@ function Home() {
   )
 }
 
-export default Home
+export default X

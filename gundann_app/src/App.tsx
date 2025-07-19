@@ -1,19 +1,18 @@
-import { useState } from 'react'
-import { createBrowserRouter, RouterProvider } from "react-router";
+import { BrowserRouter } from 'react-router-dom';
 import './App.css'
-import Sidebar from './Sidebar'
-
+import Sidebar from './components/Sidebar'
+import Content from './components/Content'
 
 function App() {
-
   return (
-    <div className='main'>
-      <Sidebar />
-      <div className='content'>
-        <h1>最初の画面</h1>
+    <BrowserRouter>
+      <div className='main'>
+        <header>軍団≠ME</header>
+        <Sidebar />
+        <Content />
       </div>
-    </div>
+    </BrowserRouter>
   )
 }
 
-export default App
+export default App;

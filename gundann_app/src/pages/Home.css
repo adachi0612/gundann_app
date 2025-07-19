@@ -1,0 +1,10 @@
+.Content {
+    text-align: center;
+    position: fixed;
+    width: 90%;
+    margin-left: 10%;
+    height: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000000;
+  }

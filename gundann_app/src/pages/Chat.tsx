@@ -1,7 +1,11 @@
-function Chat(){
-    return(
-        <h1>Chat</h1>
-    )
+import React from 'react'
+import './Chat.css'
+function Chat() {
+  return (
+    <div className='Content'>
+      Chat
+    </div>
+  )
 }
 
-export default Chat;
+export default Chat
